@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="VeterinariaElAngel.BL/VeterinariaElAngel.BL.csproj" />
+  <Project Path="VeterinariaElAngel.DAL/VeterinariaElAngel.DAL.csproj" />
+  <Project Path="VeterinariaElAngel.EN/VeterinariaElAngel.EN.csproj" />
+</Solution>
