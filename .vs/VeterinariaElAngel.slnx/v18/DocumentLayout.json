@@ -1,150 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\",
+  "WorkspaceRootPath": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\dbcontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\dbcontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\expedientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\expedientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\veterinariaelangel.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\veterinariaelangel.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\statusbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\statusbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\citabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\citabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\generobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\generobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\razabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\razabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\especiebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\especiebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\mascotabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\mascotabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\rolbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\rolbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.bl\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\expedientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\expedientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\statusdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\statusdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\statusdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\generodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\generodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\razadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\razadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\especiedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\especiedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\mascotadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\mascotadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\veterinariaelangel.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\veterinariaelangel.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.en\\veterinariaelangel.en.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\veterinariaelangel.en.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\roldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\roldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\roldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\luef1\\desktop\\sistemaveterinariaangel\\veterinariaelangel.dal\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\usuariodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\razadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\razadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\mascotadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\mascotadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\generodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\generodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\expedientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\expedientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\especiedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\especiedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\citadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\citabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\citabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\expedientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\expedientebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\veterinariaelangel.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\veterinariaelangel.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\statusbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\statusbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\generobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\generobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\razabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\razabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\especiebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\especiebl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\mascotabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\mascotabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\rolbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\rolbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.bl\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37C264BC-E331-2A1D-0B3A-505CBF410BE0}|VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj|solutionrelative:veterinariaelangel.bl\\usuariobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.dal\\veterinariaelangel.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32B6438F-F0E8-C5DD-1108-18F1F090CAEB}|VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj|solutionrelative:veterinariaelangel.dal\\veterinariaelangel.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\historialexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\historialvacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\raza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|c:\\users\\mineducyt\\desktop\\veterinariaoroginal\\veterinariaelangel.en\\veterinariaelangel.en.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9833B6C0-CB65-0F04-40F5-6E5BEE86E77D}|VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj|solutionrelative:veterinariaelangel.en\\veterinariaelangel.en.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,262 +158,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HistorialExamen.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\HistorialExamen.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\HistorialExamen.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\HistorialExamen.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\HistorialExamen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MascotaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\MascotaDAL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\MascotaDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\MascotaDAL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\MascotaDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:53:08.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HistorialVacuna.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\HistorialVacuna.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\HistorialVacuna.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\HistorialVacuna.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\HistorialVacuna.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:52:51.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExpedienteBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\ExpedienteBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\ExpedienteBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\ExpedienteBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\ExpedienteBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:52:32.483Z",
+              "WhenOpened": "2026-04-07T02:46:57.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StatusBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\StatusBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\StatusBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\StatusBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\StatusBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:52:09.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CitaBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\CitaBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\CitaBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\CitaBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\CitaBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:51:57.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GeneroBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\GeneroBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\GeneroBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\GeneroBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\GeneroBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:51:39.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RazaBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\RazaBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\RazaBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\RazaBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\RazaBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:51:16.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EspecieBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\EspecieBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\EspecieBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\EspecieBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\EspecieBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:50:55.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MascotaBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\MascotaBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\MascotaBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\MascotaBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\MascotaBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:50:41.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RolBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\RolBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\RolBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\RolBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\RolBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:50:27.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VeterinariaElAngel.BL",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-07T02:29:27.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsuarioBL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\UsuarioBL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\UsuarioBL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.BL\\UsuarioBL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.BL\\UsuarioBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:50:16.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HistorialVacuna.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\HistorialVacuna.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\HistorialVacuna.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\HistorialVacuna.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\HistorialVacuna.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:49:51.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HistorialExamen.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\HistorialExamen.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\HistorialExamen.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\HistorialExamen.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\HistorialExamen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:49:30.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ExpedienteDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:48:52.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StatusDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\StatusDAL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\StatusDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\StatusDAL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\StatusDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:48:29.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CitaDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\CitaDAL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\CitaDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\CitaDAL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\CitaDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:48:06.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GeneroDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\GeneroDAL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\GeneroDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\GeneroDAL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\GeneroDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:47:52.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "RazaDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\RazaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\RazaDAL.cs",
               "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\RazaDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\RazaDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\RazaDAL.cs",
               "RelativeToolTip": "VeterinariaElAngel.DAL\\RazaDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T02:47:33.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 3,
+              "Title": "RolDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\RolDAL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\RolDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\RolDAL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\RolDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T21:58:39.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatusDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\StatusDAL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\StatusDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\StatusDAL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\StatusDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:48:29.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\UsuarioDAL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\UsuarioDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\UsuarioDAL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\UsuarioDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T21:58:20.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBContexto.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\DBContexto.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\DBContexto.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\DBContexto.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\DBContexto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T22:36:35.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistorialVacuna.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\HistorialVacuna.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\HistorialVacuna.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\HistorialVacuna.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\HistorialVacuna.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:49:51.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HistorialExamen.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\HistorialExamen.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\HistorialExamen.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\HistorialExamen.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\HistorialExamen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:49:30.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GeneroDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\GeneroDAL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\GeneroDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\GeneroDAL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\GeneroDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:47:52.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ExpedienteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\ExpedienteDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:48:52.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "EspecieDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\EspecieDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\EspecieDAL.cs",
               "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\EspecieDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\EspecieDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\EspecieDAL.cs",
               "RelativeToolTip": "VeterinariaElAngel.DAL\\EspecieDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -418,211 +305,318 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MascotaDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\MascotaDAL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\MascotaDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\MascotaDAL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\MascotaDAL.cs",
+              "DocumentIndex": 11,
+              "Title": "CitaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\CitaDAL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\CitaDAL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\CitaDAL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\CitaDAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:46:57.582Z",
+              "WhenOpened": "2026-04-07T02:48:06.128Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CitaBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\CitaBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\CitaBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\CitaBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\CitaBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:51:57.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HistorialExamen.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\HistorialExamen.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\HistorialExamen.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\HistorialExamen.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\HistorialExamen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:53:08.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RazaBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\RazaBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\RazaBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\RazaBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\RazaBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:51:16.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GeneroBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\GeneroBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\GeneroBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\GeneroBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\GeneroBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:51:39.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StatusBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\StatusBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\StatusBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\StatusBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\StatusBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:52:09.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExpedienteBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\ExpedienteBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\ExpedienteBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\ExpedienteBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\ExpedienteBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:52:32.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HistorialVacuna.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\HistorialVacuna.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\HistorialVacuna.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\HistorialVacuna.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\HistorialVacuna.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:52:51.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EspecieBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\EspecieBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\EspecieBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\EspecieBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\EspecieBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:50:55.57Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "VeterinariaElAngel.DAL",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-07T02:20:38.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "HistorialVacuna.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\HistorialVacuna.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\HistorialVacuna.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\HistorialVacuna.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\HistorialVacuna.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Title": "MascotaBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\MascotaBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\MascotaBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\MascotaBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\MascotaBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T23:58:58.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Expediente.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Expediente.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Expediente.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Expediente.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Expediente.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T23:57:47.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Raza.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Raza.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Raza.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Raza.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Raza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:33:38.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Rol.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Rol.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Rol.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Rol.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:59:04.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Mascota.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Mascota.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Mascota.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Mascota.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Mascota.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:59:40.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "HistorialExamen.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\HistorialExamen.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\HistorialExamen.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\HistorialExamen.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\HistorialExamen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T23:58:20.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Genero.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Genero.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Genero.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Genero.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Genero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T13:42:34.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T02:50:41.556Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Cita.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Cita.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Cita.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Cita.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Cita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Title": "RolBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\RolBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\RolBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\RolBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\RolBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T13:56:41.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T02:50:27.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Status.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Status.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Status.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Status.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "VeterinariaElAngel.BL.csproj",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T02:29:27.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsuarioBL.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\UsuarioBL.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.BL\\UsuarioBL.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\UsuarioBL.cs",
+              "RelativeToolTip": "VeterinariaElAngel.BL\\UsuarioBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:59:41.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T02:50:16.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VeterinariaElAngel.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
+              "RelativeToolTip": "VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T02:20:38.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HistorialVacuna.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\HistorialVacuna.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\HistorialVacuna.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\HistorialVacuna.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\HistorialVacuna.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T23:58:58.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Expediente.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Expediente.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Expediente.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Expediente.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Expediente.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T23:57:47.011Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Usuario.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Usuario.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Usuario.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Title": "Raza.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Raza.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Raza.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Raza.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Raza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-04T14:58:50.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "VeterinariaElAngel.EN",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-06T23:57:32.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T16:33:38.605Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Especie.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Especie.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Especie.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.EN\\Especie.cs",
-              "RelativeToolTip": "VeterinariaElAngel.EN\\Especie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Rol.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Rol.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Rol.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Rol.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T00:36:29.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T14:59:04.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Mascota.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Mascota.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Mascota.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Mascota.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Mascota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T14:59:40.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HistorialExamen.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\HistorialExamen.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\HistorialExamen.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\HistorialExamen.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\HistorialExamen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T23:58:20.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Genero.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Genero.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Genero.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Genero.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Genero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:42:34.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Cita.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Cita.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Cita.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T13:56:41.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Status.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Status.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Status.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Status.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T13:59:41.63Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "RolDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\RolDAL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\RolDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\RolDAL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\RolDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Usuario.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Usuario.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Usuario.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T21:58:39.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-04T14:58:50.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "VeterinariaElAngel.EN.csproj",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-06T23:57:32.191Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "UsuarioDAL.cs",
-              "DocumentMoniker": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\UsuarioDAL.cs",
-              "RelativeDocumentMoniker": "VeterinariaElAngel.DAL\\UsuarioDAL.cs",
-              "ToolTip": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaAngel\\VeterinariaElAngel.DAL\\UsuarioDAL.cs",
-              "RelativeToolTip": "VeterinariaElAngel.DAL\\UsuarioDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Especie.cs",
+              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Especie.cs",
+              "RelativeDocumentMoniker": "VeterinariaElAngel.EN\\Especie.cs",
+              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\Especie.cs",
+              "RelativeToolTip": "VeterinariaElAngel.EN\\Especie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T21:58:20.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T00:36:29.303Z"
             }
           ]
         }
