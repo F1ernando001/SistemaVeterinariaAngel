@@ -16,5 +16,15 @@ namespace VeterinariaElAngel.EN
 
         [Required(ErrorMessage = "El estado de la mascota es obligatorio")]
         public bool Estado { get; set; }
+
+        [Required]
+        public int IdGenero { get; set; }
+
+        [Required]
+        public long IdEspecie { get; set; }
+
+        [Required]
+        public long IdRaza { get; set; }
+
     }
 }

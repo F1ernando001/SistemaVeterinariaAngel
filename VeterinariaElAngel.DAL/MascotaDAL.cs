@@ -7,18 +7,45 @@ namespace VeterinariaElAngel.DAL
     {
         public static async Task<int> CrearAsync(Mascota pMascota)
         {
-            using (var db = new DBContexto())
+            using (var dbContexto = new DBContexto())
             {
-                db.Add(pMascota);
-                return await db.SaveChangesAsync();
+                dbContexto.Add(pMascota);
+                return await dbContexto.SaveChangesAsync();
             }
         }
+        public static async Task<int> ModificarAsync(Mascota pMascota)
+        {
+            int resultado = 0;
+            using (var dbContexto = new DBContexto())
+            {
+                var mascota = await dbContexto.Mascota.FirstOrDefaultAsync(m => m.IdMascota == pMascota.IdMascota);
+                mascota.Nombre = pMascota.Nombre;
+                mascota.Estado = pMascota.Estado;
+                mascota.IdGenero = pMascota.IdGenero;
+                mascota.IdEspecie = pMascota.IdEspecie;
+                mascota.IdRaza = pMascota.IdRaza;
+                dbContexto.Update(mascota);
+                resultado = await dbContexto.SaveChangesAsync();
+            }
+            return resultado;
+        }
+        public static async Task<int> EliminarAsync(Mascota pMascota)
+        {
+            int resultado = 0;
+            using (var dbContexto = new DBContexto())
+            {
+                var mascota = await dbContexto.Mascota.FirstOrDefaultAsync(m => m.IdMascota == pMascota.IdMascota);
+                dbContexto.Mascota.Remove(mascota);
+                resultado = await dbContexto.SaveChangesAsync();
 
+            }
+            return resultado;
+        }
         public static async Task<List<Mascota>> ObtenerTodosAsync()
         {
-            using (var db = new DBContexto())
+            using (var dbContexto = new DBContexto())
             {
-                return await db.Mascota.ToListAsync();
+                return await dbContexto.Mascota.ToListAsync();
             }
         }
 

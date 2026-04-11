@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VeterinariaElAngel.BL
 {
-    internal class MascotaBL
+    public class MascotaBL
     {
     }
 }
