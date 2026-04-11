@@ -20,6 +20,10 @@ namespace VeterinariaElAngel.DAL
         public DbSet<Rol> Rol { get; set; }
         public DbSet<Status> Status { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer();
+        }
 
 
     }

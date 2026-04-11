@@ -1716,23 +1716,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {},
+    "C:\\Users\\luef1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
+      "projectUniqueName": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
       "projectName": "VeterinariaElAngel.BL",
-      "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
-      "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.BL\\obj\\",
+      "projectPath": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.BL\\VeterinariaElAngel.BL.csproj",
+      "packagesPath": "C:\\Users\\luef1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\luef1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1747,11 +1747,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj"
+            "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj": {
+              "projectPath": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj"
             },
-            "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\VeterinariaOroginal\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj"
+            "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj": {
+              "projectPath": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj"
             }
           }
         }

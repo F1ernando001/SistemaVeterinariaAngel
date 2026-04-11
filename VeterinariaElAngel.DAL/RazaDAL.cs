@@ -1,126 +1,128 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.Text;
 using VeterinariaElAngel.EN;
 
-public static class RazaDAL
+namespace VeterinariaElAngel.DAL
 {
-    // 🔹 Guardar
-    public static async Task<int> GuardarAsync(Raza pRaza)
+    public class RazaDAL
     {
-        int result = 0;
-        try
+        public static async Task<int> GuardarAsync(Raza pRaza)
         {
-            using (var dbContexto = new DBContexto())
+            int result = 0;
+            try
             {
-                dbContexto.Raza.Add(pRaza);
-                result = await dbContexto.SaveChangesAsync();
-            }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Modificar
-    public static async Task<int> ModificarAsync(Raza pRaza)
-    {
-        int result = 0;
-        try
-        {
-            using (var dbContexto = new DBContexto())
-            {
-                var raza = await dbContexto.Raza
-                    .FirstOrDefaultAsync(r => r.IdRaza == pRaza.IdRaza);
-
-                if (raza != null)
+                using (var dbContexto = new DBContexto())
                 {
-                    raza.Nombre = pRaza.Nombre;
-                    raza.IdEspecie = pRaza.IdEspecie;
-                    raza.Descripcion = pRaza.Descripcion;
-                    raza.Estado = pRaza.Estado;
-
-                    dbContexto.Raza.Update(raza);
+                    dbContexto.Raza.Add(pRaza);
                     result = await dbContexto.SaveChangesAsync();
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
+
+        // 🔹 Modificar
+        public static async Task<int> ModificarAsync(Raza pRaza)
+        {
+            int result = 0;
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    throw new Exception("La raza no existe");
+                    var raza = await dbContexto.Raza
+                        .FirstOrDefaultAsync(r => r.IdRaza == pRaza.IdRaza);
+
+                    if (raza != null)
+                    {
+                        raza.IdRaza = pRaza.IdRaza;
+                        raza.Nombre = pRaza.Nombre;
+
+
+
+                        dbContexto.Raza.Update(raza);
+                        result = await dbContexto.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("La raza no existe");
+                    }
                 }
             }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Eliminar
-    public static async Task<int> EliminarAsync(int idRaza)
-    {
-        int result = 0;
-        try
-        {
-            using (var dbContexto = new DBContexto())
+            catch (Exception ex)
             {
-                var raza = await dbContexto.Raza
-                    .FirstOrDefaultAsync(r => r.IdRaza == idRaza);
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
 
-                if (raza != null)
+        // 🔹 Eliminar
+        public static async Task<int> EliminarAsync(int pRaza)
+        {
+            int result = 0;
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    dbContexto.Raza.Remove(raza);
-                    result = await dbContexto.SaveChangesAsync();
+                    var raza = await dbContexto.Raza
+                        .FirstOrDefaultAsync(r => r.IdRaza == pRaza);
+
+                    if (raza != null)
+                    {
+                        dbContexto.Raza.Remove(raza);
+                        result = await dbContexto.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("La raza no existe");
+                    }
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
+
+        // 🔹 Obtener por ID
+        public static async Task<Raza> ObtenerPorIdAsync(int pRaza)
+        {
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    throw new Exception("La raza no existe");
+                    return await dbContexto.Raza
+                        .FirstOrDefaultAsync(r => r.IdRaza == pRaza);
                 }
             }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Obtener por ID
-    public static async Task<Raza> ObtenerPorIdAsync(int idRaza)
-    {
-        try
-        {
-            using (var dbContexto = new DBContexto())
+            catch (Exception ex)
             {
-                return await dbContexto.Raza
-                    .FirstOrDefaultAsync(r => r.IdRaza == idRaza);
+                throw new Exception(ex.Message);
             }
         }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
-        }
-    }
 
-    // 🔹 Listar todos
-    public static async Task<List<Raza>> ObtenerTodosAsync()
-    {
-        try
+        // 🔹 Listar todos
+        public static async Task<List<Raza>> ObtenerTodosAsync()
         {
-            using (var dbContexto = new DBContexto())
+            try
             {
-                return await dbContexto.Raza.ToListAsync();
+                using (var dbContexto = new DBContexto())
+                {
+                    return await dbContexto.Raza.ToListAsync();
+                }
             }
-        }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

@@ -1,124 +1,126 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.Text;
 using VeterinariaElAngel.EN;
 
-public static class StatusDAL
+namespace VeterinariaElAngel.DAL
 {
-    // 🔹 Guardar
-    public static async Task<int> GuardarAsync(Status pStatus)
+    public class StatusDAL
     {
-        int result = 0;
-        try
+        public static async Task<int> GuardarAsync(Status pStatus)
         {
-            using (var dbContexto = new DBContexto())
+            int result = 0;
+            try
             {
-                dbContexto.Status.Add(pStatus);
-                result = await dbContexto.SaveChangesAsync();
-            }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Modificar
-    public static async Task<int> ModificarAsync(Status pStatus)
-    {
-        int result = 0;
-        try
-        {
-            using (var dbContexto = new DBContexto())
-            {
-                var status = await dbContexto.Status
-                    .FirstOrDefaultAsync(s => s.IdStatus == pStatus.IdStatus);
-
-                if (status != null)
+                using (var dbContexto = new DBContexto())
                 {
-                    status.Nombre = pStatus.Nombre;
-                    status.Descripcion = pStatus.Descripcion;
-
-                    dbContexto.Status.Update(status);
+                    dbContexto.Status.Add(pStatus);
                     result = await dbContexto.SaveChangesAsync();
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
+
+        //  Modificar
+        public static async Task<int> ModificarAsync(Status pStatus)
+        {
+            int result = 0;
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    throw new Exception("El status no existe");
+                    var status = await dbContexto.Status
+                        .FirstOrDefaultAsync(s => s.IdEstado == pStatus.IdEstado);
+
+                    if (status != null)
+                    {
+                        status.Estado = pStatus.Estado;
+
+
+                        dbContexto.Status.Update(status);
+                        result = await dbContexto.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("El status no existe");
+                    }
                 }
             }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Eliminar
-    public static async Task<int> EliminarAsync(int idStatus)
-    {
-        int result = 0;
-        try
-        {
-            using (var dbContexto = new DBContexto())
+            catch (Exception ex)
             {
-                var status = await dbContexto.Status
-                    .FirstOrDefaultAsync(s => s.IdStatus == idStatus);
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
 
-                if (status != null)
+        // Eliminar
+        public static async Task<int> EliminarAsync(int pStatus)
+        {
+            int result = 0;
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    dbContexto.Status.Remove(status);
-                    result = await dbContexto.SaveChangesAsync();
+                    var status = await dbContexto.Status
+                        .FirstOrDefaultAsync(s => s.IdEstado == pStatus);
+
+                    if (status != null)
+                    {
+                        dbContexto.Status.Remove(status);
+                        result = await dbContexto.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("El status no existe");
+                    }
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
+
+        // Obtener por ID
+        public static async Task<Status> ObtenerPorIdAsync(int idStatus)
+        {
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    throw new Exception("El status no existe");
+                    return await dbContexto.Status
+                        .FirstOrDefaultAsync(s => s.IdEstado == idStatus);
                 }
             }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Obtener por ID
-    public static async Task<Status> ObtenerPorIdAsync(int idStatus)
-    {
-        try
-        {
-            using (var dbContexto = new DBContexto())
+            catch (Exception ex)
             {
-                return await dbContexto.Status
-                    .FirstOrDefaultAsync(s => s.IdStatus == idStatus);
+                throw new Exception(ex.Message);
             }
         }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
-        }
-    }
 
-    // 🔹 Listar todos
-    public static async Task<List<Status>> ObtenerTodosAsync()
-    {
-        try
+        // Listar todos
+        public static async Task<List<Status>> ObtenerTodosAsync()
         {
-            using (var dbContexto = new DBContexto())
+            try
             {
-                return await dbContexto.Status.ToListAsync();
+                using (var dbContexto = new DBContexto())
+                {
+                    return await dbContexto.Status.ToListAsync();
+                }
             }
-        }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

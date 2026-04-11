@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VeterinariaElAngel.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad1c061208a36d42f2f5e8ef8cf356dfadc9f1d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb6e95d819877961d9cf86a9d41ce93fe1be8458")]
 [assembly: System.Reflection.AssemblyProductAttribute("VeterinariaElAngel.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VeterinariaElAngel.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

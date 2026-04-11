@@ -8,7 +8,7 @@ namespace VeterinariaElAngel.EN
     public class Especie
     {
         [Key]
-        public int IDEspecie { get; set; }
+        public int IdEspecie { get; set; }
 
         [Required(ErrorMessage ="El campo es obligatorio")]
         [StringLength(50)]

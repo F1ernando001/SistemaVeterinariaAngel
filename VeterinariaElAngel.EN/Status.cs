@@ -8,7 +8,7 @@ namespace VeterinariaElAngel.EN
     public class Status
     {
         [Key]
-        public int IDEstado { get; set; }
+        public int IdEstado { get; set; }
 
         [Required(ErrorMessage = "El estado es obligatorio")]
         [StringLength(50, MinimumLength = 3)]

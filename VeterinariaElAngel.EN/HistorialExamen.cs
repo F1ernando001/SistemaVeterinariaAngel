@@ -8,8 +8,8 @@ namespace VeterinariaElAngel.EN
     public class HistorialExamen
     {
         [Key]
-        public int IDHistorialExamen { get; set; }
-        public int IDExpediente { get; set; }
+        public int IdHistorialExamen { get; set; }
+        public int IdExpediente { get; set; }
         public string NombreExamen { get; set; }
         public string Resultado { get; set; }
         public DateOnly FechaExamen { get; set; }

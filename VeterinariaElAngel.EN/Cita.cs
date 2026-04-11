@@ -8,7 +8,7 @@ namespace VeterinariaElAngel.EN
     public class Cita
     {
         [Key]
-        public int IDCita { get; set; }
+        public int IdCita { get; set; }
 
         [Required(ErrorMessage ="El campo es obligatorio")]
         [DataType(DataType.Date)]

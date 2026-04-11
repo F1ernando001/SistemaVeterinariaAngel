@@ -1,125 +1,88 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.Text;
 using VeterinariaElAngel.EN;
 
-public static class RolDAL
+namespace VeterinariaElAngel.DAL
 {
-    // 🔹 Guardar
-    public static async Task<int> GuardarAsync(Rol pRol)
+    public class RolDAL
     {
-        int result = 0;
-        try
+        public static async Task<int> CrearAsync(Rol pRol)
         {
+            int result = 0;
             using (var dbContexto = new DBContexto())
             {
-                dbContexto.Rol.Add(pRol);
+                dbContexto.Add(pRol);
                 result = await dbContexto.SaveChangesAsync();
             }
+            return result;
         }
-        catch (Exception ex)
+        public static async Task<int> ModificarAsync(Rol pRol)
         {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Modificar
-    public static async Task<int> ModificarAsync(Rol pRol)
-    {
-        int result = 0;
-        try
-        {
+            int result = 0;
             using (var dbContexto = new DBContexto())
             {
-                var rol = await dbContexto.Rol
-                    .FirstOrDefaultAsync(r => r.IdRol == pRol.IdRol);
-
-                if (rol != null)
-                {
-                    rol.Nombre = pRol.Nombre;
-                    rol.Descripcion = pRol.Descripcion;
-                    rol.Estado = pRol.Estado;
-
-                    dbContexto.Rol.Update(rol);
-                    result = await dbContexto.SaveChangesAsync();
-                }
-                else
-                {
-                    throw new Exception("El rol no existe");
-                }
+                var rol = await dbContexto.Rol.FirstOrDefaultAsync(s => s.IdRol == pRol.IdRol);
+                rol.TipoRol = pRol.TipoRol;
+                dbContexto.Update(rol);
+                result = await dbContexto.SaveChangesAsync();
             }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
 
-    // 🔹 Eliminar
-    public static async Task<int> EliminarAsync(int idRol)
-    {
-        int result = 0;
-        try
+            return result;
+        }
+        public static async Task<int> EliminarAsync(Rol pRol)
         {
+            int result = 0;
             using (var dbContexto = new DBContexto())
             {
-                var rol = await dbContexto.Rol
-                    .FirstOrDefaultAsync(r => r.IdRol == idRol);
-
-                if (rol != null)
-                {
-                    dbContexto.Rol.Remove(rol);
-                    result = await dbContexto.SaveChangesAsync();
-                }
-                else
-                {
-                    throw new Exception("El rol no existe");
-                }
+                var rol = await dbContexto.Rol.FirstOrDefaultAsync(r => r.IdRol == pRol.IdRol);
+                dbContexto.Rol.Remove(rol);
+                result = await dbContexto.SaveChangesAsync();
             }
+            return result;
         }
-        catch (Exception ex)
+        public static async Task<Rol> ObtenerPorId(Rol pRol)
         {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Obtener por ID
-    public static async Task<Rol> ObtenerPorIdAsync(int idRol)
-    {
-        try
-        {
+            Rol rol = new Rol();
             using (var dbContexto = new DBContexto())
             {
-                return await dbContexto.Rol
-                    .FirstOrDefaultAsync(r => r.IdRol == idRol);
+                rol = await dbContexto.Rol.FirstOrDefaultAsync(r => r.IdRol == pRol.IdRol);
             }
+            return rol;
         }
-        catch (Exception ex)
+        public static async Task<List<Rol>> ObtenerTodosAsync()
         {
-            throw new Exception(ex.Message);
-        }
-    }
-
-    // 🔹 Listar todos
-    public static async Task<List<Rol>> ObtenerTodosAsync()
-    {
-        try
-        {
+            List<Rol> roles = new List<Rol>();
             using (var dbContexto = new DBContexto())
             {
-                return await dbContexto.Rol.ToListAsync();
+                roles = await dbContexto.Rol.ToListAsync();
             }
+            return roles;
         }
-        catch (Exception ex)
+        internal static IQueryable<Rol> QuerySelect(IQueryable<Rol> pQuery, Rol pRol)
         {
-            throw new Exception(ex.Message);
+            if (pRol.IdRol > 0)
+                pQuery = pQuery.Where(s => s.IdRol == pRol.IdRol);
+
+            if (!string.IsNullOrWhiteSpace(pRol.TipoRol))
+                pQuery = pQuery.Where(s => s.TipoRol.Contains(pRol.TipoRol));
+
+            if (pRol.Estado != null)
+                pQuery = pQuery.Where(s => s.Estado == pRol.Estado);
+
+            return pQuery;
+        }
+        public static async Task<List<Rol>> BuscarAsync(Rol pRol)
+        {
+            var roles = new List<Rol>();
+            using (var dbContexto = new DBContexto())
+            {
+                var select = dbContexto.Rol.AsQueryable();
+                select = QuerySelect(select, pRol);
+                roles = await select.ToListAsync();
+            }
+            return roles;
         }
     }
 }

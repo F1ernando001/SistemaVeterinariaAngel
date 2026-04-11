@@ -6,16 +6,16 @@ using VeterinariaElAngel.EN;
 
 namespace VeterinariaElAngel.DAL
 {
-    public class GeneroDAL
+    public class HistorialVacunaDAL
     {
-        public static async Task<int> GuardarAsync(Genero pGenero)
+        public static async Task<int> GuardarAsync(HistorialVacuna pHistorialVacuna)
         {
             int result = 0;
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    dbContexto.Genero.Add(pGenero);
+                    dbContexto.HistorialVacuna.Add(pHistorialVacuna);
                     result = await dbContexto.SaveChangesAsync();
                 }
             }
@@ -28,27 +28,29 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Modificar
-        public static async Task<int> ModificarAsync(Genero pGenero)
+        public static async Task<int> ModificarAsync(HistorialVacuna pHistorialVacuna)
         {
             int result = 0;
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    var genero = await dbContexto.Genero
-                        .FirstOrDefaultAsync(g => g.IdGenero == pGenero.IdGenero);
+                    var vacuna = await dbContexto.HistorialVacuna
+                        .FirstOrDefaultAsync(v => v.IdHistorialVacuna == pHistorialVacuna.IdHistorialVacuna);
 
-                    if (genero != null)
+                    if (vacuna != null)
                     {
-                        genero.Nombre = pGenero.Nombre;
+                        vacuna.IdHistorialVacuna = pHistorialVacuna.IdHistorialVacuna;
+                        vacuna.NombreVacuna = pHistorialVacuna.NombreVacuna;
+                        vacuna.FechaVacuna = pHistorialVacuna.FechaVacuna;
 
 
-                        dbContexto.Genero.Update(genero);
+                        dbContexto.HistorialVacuna.Update(vacuna);
                         result = await dbContexto.SaveChangesAsync();
                     }
                     else
                     {
-                        throw new Exception("El género no existe");
+                        throw new Exception("El historial de vacuna no existe");
                     }
                 }
             }
@@ -61,24 +63,24 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Eliminar
-        public static async Task<int> EliminarAsync(int idGenero)
+        public static async Task<int> EliminarAsync(int idHistorialVacuna)
         {
             int result = 0;
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    var genero = await dbContexto.Genero
-                        .FirstOrDefaultAsync(g => g.IdGenero == idGenero);
+                    var vacuna = await dbContexto.HistorialVacuna
+                        .FirstOrDefaultAsync(v => v.IdHistorialVacuna == idHistorialVacuna);
 
-                    if (genero != null)
+                    if (vacuna != null)
                     {
-                        dbContexto.Genero.Remove(genero);
+                        dbContexto.HistorialVacuna.Remove(vacuna);
                         result = await dbContexto.SaveChangesAsync();
                     }
                     else
                     {
-                        throw new Exception("El género no existe");
+                        throw new Exception("El registro no existe");
                     }
                 }
             }
@@ -91,14 +93,14 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Obtener por ID
-        public static async Task<Genero> ObtenerPorIdAsync(int idGenero)
+        public static async Task<HistorialVacuna> ObtenerPorIdAsync(int idHistorialVacuna)
         {
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    return await dbContexto.Genero
-                        .FirstOrDefaultAsync(g => g.IdGenero == idGenero);
+                    return await dbContexto.HistorialVacuna
+                        .FirstOrDefaultAsync(v => v.IdHistorialVacuna == idHistorialVacuna);
                 }
             }
             catch (Exception ex)
@@ -108,13 +110,13 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Listar todos
-        public static async Task<List<Genero>> ObtenerTodosAsync()
+        public static async Task<List<HistorialVacuna>> ObtenerTodosAsync()
         {
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    return await dbContexto.Genero.ToListAsync();
+                    return await dbContexto.HistorialVacuna.ToListAsync();
                 }
             }
             catch (Exception ex)

@@ -6,16 +6,16 @@ using VeterinariaElAngel.EN;
 
 namespace VeterinariaElAngel.DAL
 {
-    public class GeneroDAL
+    public class HistorialExamenDAL
     {
-        public static async Task<int> GuardarAsync(Genero pGenero)
+        public static async Task<int> GuardarAsync(HistorialExamen pHistorialExamen)
         {
             int result = 0;
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    dbContexto.Genero.Add(pGenero);
+                    dbContexto.HistorialExamen.Add(pHistorialExamen);
                     result = await dbContexto.SaveChangesAsync();
                 }
             }
@@ -28,27 +28,30 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Modificar
-        public static async Task<int> ModificarAsync(Genero pGenero)
+        public static async Task<int> ModificarAsync(HistorialExamen pHistorialExamen)
         {
             int result = 0;
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    var genero = await dbContexto.Genero
-                        .FirstOrDefaultAsync(g => g.IdGenero == pGenero.IdGenero);
+                    var examen = await dbContexto.HistorialExamen
+                        .FirstOrDefaultAsync(e => e.IdHistorialExamen == pHistorialExamen.IdHistorialExamen);
 
-                    if (genero != null)
+                    if (examen != null)
                     {
-                        genero.Nombre = pGenero.Nombre;
+                        examen.IdExpediente = pHistorialExamen.IdExpediente;
+                        examen.NombreExamen = pHistorialExamen.NombreExamen;
+                        examen.FechaExamen = pHistorialExamen.FechaExamen;
+                        examen.Resultado = pHistorialExamen.Resultado;
 
 
-                        dbContexto.Genero.Update(genero);
+                        dbContexto.HistorialExamen.Update(examen);
                         result = await dbContexto.SaveChangesAsync();
                     }
                     else
                     {
-                        throw new Exception("El género no existe");
+                        throw new Exception("El historial de examen no existe");
                     }
                 }
             }
@@ -61,24 +64,24 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Eliminar
-        public static async Task<int> EliminarAsync(int idGenero)
+        public static async Task<int> EliminarAsync(int idHistorialExamen)
         {
             int result = 0;
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    var genero = await dbContexto.Genero
-                        .FirstOrDefaultAsync(g => g.IdGenero == idGenero);
+                    var examen = await dbContexto.HistorialExamen
+                        .FirstOrDefaultAsync(e => e.IdHistorialExamen == idHistorialExamen);
 
-                    if (genero != null)
+                    if (examen != null)
                     {
-                        dbContexto.Genero.Remove(genero);
+                        dbContexto.HistorialExamen.Remove(examen);
                         result = await dbContexto.SaveChangesAsync();
                     }
                     else
                     {
-                        throw new Exception("El género no existe");
+                        throw new Exception("El registro no existe");
                     }
                 }
             }
@@ -91,14 +94,14 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Obtener por ID
-        public static async Task<Genero> ObtenerPorIdAsync(int idGenero)
+        public static async Task<HistorialExamen> ObtenerPorIdAsync(int idHistorialExamen)
         {
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    return await dbContexto.Genero
-                        .FirstOrDefaultAsync(g => g.IdGenero == idGenero);
+                    return await dbContexto.HistorialExamen
+                        .FirstOrDefaultAsync(e => e.IdHistorialExamen == idHistorialExamen);
                 }
             }
             catch (Exception ex)
@@ -108,13 +111,13 @@ namespace VeterinariaElAngel.DAL
         }
 
         // 🔹 Listar todos
-        public static async Task<List<Genero>> ObtenerTodosAsync()
+        public static async Task<List<HistorialExamen>> ObtenerTodosAsync()
         {
             try
             {
                 using (var dbContexto = new DBContexto())
                 {
-                    return await dbContexto.Genero.ToListAsync();
+                    return await dbContexto.HistorialExamen.ToListAsync();
                 }
             }
             catch (Exception ex)

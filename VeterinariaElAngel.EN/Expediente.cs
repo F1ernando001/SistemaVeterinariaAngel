@@ -8,19 +8,19 @@ namespace VeterinariaElAngel.EN
     public class Expediente
     {
         [Key]
-        public int IDExpediente { get; set; }
+        public int IdExpediente { get; set; }
 
         [Required(ErrorMessage = "El campo es obligatorio")]
-        public int IDUsuario { get; set; }
+        public int IdUsuario { get; set; }
 
         [Required(ErrorMessage = "El campo es obligatorio")]
         public int IdMascota { get; set; }
 
         [Required(ErrorMessage = "El campo es obligatorio")]
-        public int IDRaza { get; set; }
+        public int IdRaza { get; set; }
 
         [Required(ErrorMessage = "El campo es obligatorio")]
-        public int IDEspecie { get; set; }
+        public int IdEspecie { get; set; }
 
         [Required(ErrorMessage = "El campo es obligatorio")]
         [StringLength(50)]

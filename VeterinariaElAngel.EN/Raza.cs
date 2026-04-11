@@ -9,7 +9,7 @@ namespace VeterinariaElAngel.EN
     public  class Raza
     {
         [Key]
-        public int IDRaza { get; set; }
+        public int IdRaza { get; set; }
 
         [Required(ErrorMessage ="El nombre de la raza es obligatorio")]
         [StringLength(50)]

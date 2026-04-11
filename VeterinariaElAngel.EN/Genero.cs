@@ -8,7 +8,7 @@ namespace VeterinariaElAngel.EN
     public class Genero
     {
         [Key]
-        public int IDGenero { get; set; }
+        public int IdGenero { get; set; }
 
         [Required(ErrorMessage ="El campo es obligatorio")]
         [StringLength(50)]

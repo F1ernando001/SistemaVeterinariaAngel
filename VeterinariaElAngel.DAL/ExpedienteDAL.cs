@@ -1,126 +1,128 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.Text;
 using VeterinariaElAngel.EN;
 
-public static class ExpedienteDAL
+namespace VeterinariaElAngel.DAL
 {
-    // 🔹 Guardar
-    public static async Task<int> GuardarAsync(Expediente pExpediente)
+    public class ExpedienteDAL
     {
-        int result = 0;
-        try
+        public static async Task<int> GuardarAsync(Expediente pExpediente)
         {
-            using (var dbContexto = new DBContexto())
+            int result = 0;
+            try
             {
-                dbContexto.Expediente.Add(pExpediente);
-                result = await dbContexto.SaveChangesAsync();
-            }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Modificar
-    public static async Task<int> ModificarAsync(Expediente pExpediente)
-    {
-        int result = 0;
-        try
-        {
-            using (var dbContexto = new DBContexto())
-            {
-                var expediente = await dbContexto.Expediente
-                    .FirstOrDefaultAsync(e => e.IdExpediente == pExpediente.IdExpediente);
-
-                if (expediente != null)
+                using (var dbContexto = new DBContexto())
                 {
-                    expediente.IdMascota = pExpediente.IdMascota;
-                    expediente.Fecha = pExpediente.Fecha;
-                    expediente.Descripcion = pExpediente.Descripcion;
-                    expediente.Status = pExpediente.Status;
-
-                    dbContexto.Expediente.Update(expediente);
+                    dbContexto.Expediente.Add(pExpediente);
                     result = await dbContexto.SaveChangesAsync();
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
+
+        // 🔹 Modificar
+        public static async Task<int> ModificarAsync(Expediente pExpediente)
+        {
+            int result = 0;
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    throw new Exception("El expediente no existe");
+                    var expediente = await dbContexto.Expediente
+                        .FirstOrDefaultAsync(e => e.IdExpediente == pExpediente.IdExpediente);
+
+                    if (expediente != null)
+                    {
+                        expediente.IdMascota = pExpediente.IdMascota;
+                        expediente.FechaNacimiento = pExpediente.FechaNacimiento;
+                        expediente.NumeroExpediente = pExpediente.NumeroExpediente;
+                        expediente.Peso = pExpediente.Peso;
+
+                        dbContexto.Expediente.Update(expediente);
+                        result = await dbContexto.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("El expediente no existe");
+                    }
                 }
             }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Eliminar
-    public static async Task<int> EliminarAsync(int idExpediente)
-    {
-        int result = 0;
-        try
-        {
-            using (var dbContexto = new DBContexto())
+            catch (Exception ex)
             {
-                var expediente = await dbContexto.Expediente
-                    .FirstOrDefaultAsync(e => e.IdExpediente == idExpediente);
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
 
-                if (expediente != null)
+        // 🔹 Eliminar
+        public static async Task<int> EliminarAsync(int idExpediente)
+        {
+            int result = 0;
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    dbContexto.Expediente.Remove(expediente);
-                    result = await dbContexto.SaveChangesAsync();
+                    var expediente = await dbContexto.Expediente
+                        .FirstOrDefaultAsync(e => e.IdExpediente == idExpediente);
+
+                    if (expediente != null)
+                    {
+                        dbContexto.Expediente.Remove(expediente);
+                        result = await dbContexto.SaveChangesAsync();
+                    }
+                    else
+                    {
+                        throw new Exception("El expediente no existe");
+                    }
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                result = 0;
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
+
+        // 🔹 Obtener por ID
+        public static async Task<Expediente> ObtenerPorIdAsync(int idExpediente)
+        {
+            try
+            {
+                using (var dbContexto = new DBContexto())
                 {
-                    throw new Exception("El expediente no existe");
+                    return await dbContexto.Expediente
+                        .FirstOrDefaultAsync(e => e.IdExpediente == idExpediente);
                 }
             }
-        }
-        catch (Exception ex)
-        {
-            result = 0;
-            throw new Exception(ex.Message);
-        }
-        return result;
-    }
-
-    // 🔹 Obtener por ID
-    public static async Task<Expediente> ObtenerPorIdAsync(int idExpediente)
-    {
-        try
-        {
-            using (var dbContexto = new DBContexto())
+            catch (Exception ex)
             {
-                return await dbContexto.Expediente
-                    .FirstOrDefaultAsync(e => e.IdExpediente == idExpediente);
+                throw new Exception(ex.Message);
             }
         }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
-        }
-    }
 
-    // 🔹 Listar todos
-    public static async Task<List<Expediente>> ObtenerTodosAsync()
-    {
-        try
+        // 🔹 Listar todos
+        public static async Task<List<Expediente>> ObtenerTodosAsync()
         {
-            using (var dbContexto = new DBContexto())
+            try
             {
-                return await dbContexto.Expediente.ToListAsync();
+                using (var dbContexto = new DBContexto())
+                {
+                    return await dbContexto.Expediente.ToListAsync();
+                }
             }
-        }
-        catch (Exception ex)
-        {
-            throw new Exception(ex.Message);
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

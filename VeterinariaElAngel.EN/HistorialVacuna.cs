@@ -8,10 +8,10 @@ namespace VeterinariaElAngel.EN
     public class HistorialVacuna
     {
         [Key]
-        public int IDHistorialVacuna { get; set; }
+        public int IdHistorialVacuna { get; set; }
 
         [Required]
-        public int IDExpediente { get; set; }
+        public int IdExpediente { get; set; }
 
         [Required(ErrorMessage = "El campo es obligatorio")]
         [StringLength(100)]
