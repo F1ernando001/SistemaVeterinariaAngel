@@ -1,0 +1,55 @@
+﻿@model IEnumerable<VeterinariaElAngel.EN.Raza>
+
+@{
+    ViewData["Title"] = "Listado de Razas";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="text-primary"><i class="fas fa-dna"></i> Catálogo de Razas</h2>
+        <a asp-action="Create" class="btn btn-success shadow-sm">
+            <i class="fas fa-plus"></i> Nueva Raza
+        </a>
+    </div>
+
+    <div class="card shadow border-0">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th style="width: 15%">ID</th>
+                            <th style="width: 60%">Nombre de la Raza</th>
+                            <th class="text-center" style="width: 25%">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.IdRaza</td>
+                                <td class="fw-bold">@item.Nombre</td>
+                                <td class="text-center">
+                                    <div class="btn-group">
+                                        <a asp-action="Edit" asp-route-id="@item.IdRaza" class="btn btn-sm btn-outline-warning" title="Editar">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.IdRaza" class="btn btn-sm btn-outline-danger" title="Eliminar">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            @if (!Model.Any())
+            {
+                <div class="text-center py-4 text-muted">
+                    <p>No hay razas registradas todavía.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

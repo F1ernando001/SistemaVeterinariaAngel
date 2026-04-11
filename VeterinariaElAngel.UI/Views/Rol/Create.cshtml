@@ -1,0 +1,39 @@
+﻿@model VeterinariaElAngel.EN.Rol
+
+@{
+    ViewData["Title"] = "Nuevo Rol";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Registrar Rol</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        
+                        <div class="mb-3">
+                            <label asp-for="TipoRol" class="form-label fw-bold"></label>
+                            <input asp-for="TipoRol" class="form-control" placeholder="Ej: Administrador, Veterinario..." />
+                            <span asp-validation-for="TipoRol" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3 form-check form-switch">
+                            <input class="form-check-input" type="checkbox" asp-for="Estado" id="rolEstado" checked>
+                                <label class="form-check-label" for="rolEstado">Rol Activo</label>
+                            </div>
+
+                            <div class="d-grid gap-2 mt-4">
+                                <button type="submit" class="btn btn-primary">Guardar Rol</button>
+                                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

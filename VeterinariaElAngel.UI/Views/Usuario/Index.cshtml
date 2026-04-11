@@ -1,0 +1,74 @@
+﻿@model IEnumerable<VeterinariaElAngel.EN.Usuario>
+
+@{
+    ViewData["Title"] = "Gestión de Usuarios";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="text-primary"><i class="fas fa-users-cog"></i> Personal del Sistema</h2>
+        <a asp-action="Create" class="btn btn-success shadow-sm">
+            <i class="fas fa-user-plus"></i> Nuevo Usuario
+        </a>
+    </div>
+
+    <div class="card shadow border-0">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Nombre Completo</th>
+                            <th>Correo</th>
+                            <th>Rol</th>
+                            <th>Teléfono</th>
+                            <th>Estado</th>
+                            <th class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <span class="fw-bold">@item.Nombre @item.Apellido</span><br />
+                                    <small class="text-muted">DUI: @item.DUI</small>
+                                </td>
+                                <td>@item.Correo</td>
+                                <td>
+                                    <span class="badge bg-outline-primary border text-primary">
+                                        @item.Rol?.TipoRol
+                                    </span>
+                                </td>
+                                <td>@item.Telefono</td>
+                                <td>
+                                    @if (item.Estado)
+                                    {
+                                        <span class="badge rounded-pill bg-success">Activo</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge rounded-pill bg-secondary">Inactivo</span>
+                                    }
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-group">
+                                        <a asp-action="Edit" asp-route-id="@item.IdUsuario" class="btn btn-sm btn-outline-warning" title="Editar">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.IdUsuario" class="btn btn-sm btn-outline-info" title="Detalles">
+                                            <i class="fas fa-id-card"></i>
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.IdUsuario" class="btn btn-sm btn-outline-danger" title="Eliminar">
+                                            <i class="fas fa-user-minus"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@model VeterinariaElAngel.EN.Especie
+
+@{
+    ViewData["Title"] = "Nueva Especie";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Registrar Especie</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label asp-for="NombreEspecie" class="form-label">Nombre de la Especie</label>
+                            <input asp-for="NombreEspecie" class="form-control" placeholder="Ej: Canino, Felino..." />
+                            <span asp-validation-for="NombreEspecie" class="text-danger"></span>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

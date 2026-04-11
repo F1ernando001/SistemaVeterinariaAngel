@@ -1,0 +1,40 @@
+﻿@model VeterinariaElAngel.EN.Rol
+
+@{
+    ViewData["Title"] = "Editar Rol";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow border-warning">
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0">Editar Rol #@Model.IdRol</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="IdRol" />
+                        
+                        <div class="mb-3">
+                            <label asp-for="TipoRol" class="form-label fw-bold"></label>
+                            <input asp-for="TipoRol" class="form-control" />
+                            <span asp-validation-for="TipoRol" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3 form-check form-switch">
+                            <input class="form-check-input" type="checkbox" asp-for="Estado" id="editRolEstado">
+                                <label class="form-check-label" for="editRolEstado">Estado del Rol</label>
+                            </div>
+
+                            <div class="d-grid gap-2 mt-4">
+                                <button type="submit" class="btn btn-primary">Actualizar</button>
+                                <a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

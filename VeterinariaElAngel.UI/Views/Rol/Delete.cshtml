@@ -1,0 +1,27 @@
+﻿@model VeterinariaElAngel.EN.Rol
+
+@{
+    ViewData["Title"] = "Eliminar Rol";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card border-danger shadow">
+                <div class="card-body text-center py-4">
+                    <i class="fas fa-shield-alt fa-3x text-danger mb-3"></i>
+                    <h4 class="text-danger">¿Eliminar este Rol?</h4>
+                    <p class="mb-4">Está por eliminar el acceso para: <br><strong>@Model.TipoRol</strong></p>
+                    
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="IdRol" />
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-danger">Confirmar Eliminación</button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

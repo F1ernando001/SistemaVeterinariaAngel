@@ -2,4 +2,5 @@
   <Project Path="VeterinariaElAngel.BL/VeterinariaElAngel.BL.csproj" />
   <Project Path="VeterinariaElAngel.DAL/VeterinariaElAngel.DAL.csproj" />
   <Project Path="VeterinariaElAngel.EN/VeterinariaElAngel.EN.csproj" />
+  <Project Path="VeterinariaElAngel.UI/VeterinariaElAngel.UI.csproj" Id="91fdc4ed-0994-4a96-8537-0c87dbd22de4" />
 </Solution>

@@ -1,0 +1,40 @@
+﻿@model VeterinariaElAngel.EN.Cita
+
+@{
+    ViewData["Title"] = "Eliminar Cita";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-danger shadow">
+                <div class="card-header bg-danger text-white text-center">
+                    <h4 class="mb-0">¿Eliminar esta Cita?</h4>
+                </div>
+                <div class="card-body">
+                    <p class="text-center text-muted">Esta acción no se puede deshacer.</p>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-5">ID Cita:</dt>
+                        <dd class="col-sm-7">@Model.IdCita</dd>
+
+                        <dt class="col-sm-5">Fecha Agendada:</dt>
+                        <dd class="col-sm-7">@Model.FechaCita.ToString("dd/MM/yyyy")</dd>
+
+                        <dt class="col-sm-5">Hora:</dt>
+                        <dd class="col-sm-7">@Model.HoraCita.ToString("hh:mm tt")</dd>
+                    </dl>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="IdCita" />
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-danger">Confirmar Eliminación</button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

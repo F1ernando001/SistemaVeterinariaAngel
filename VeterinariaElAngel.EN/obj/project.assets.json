@@ -1675,23 +1675,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luef1\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandra\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+      "projectUniqueName": "C:\\Users\\Alexandra\\OneDrive\\Escritorio\\Veterinaria\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
       "projectName": "VeterinariaElAngel.EN",
-      "projectPath": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
-      "packagesPath": "C:\\Users\\luef1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luef1\\Desktop\\SistemaVeterinariaElAngel\\VeterinariaElAngel.EN\\obj\\",
+      "projectPath": "C:\\Users\\Alexandra\\OneDrive\\Escritorio\\Veterinaria\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+      "packagesPath": "C:\\Users\\Alexandra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexandra\\OneDrive\\Escritorio\\Veterinaria\\VeterinariaElAngel.EN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\luef1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

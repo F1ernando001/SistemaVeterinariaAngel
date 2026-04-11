@@ -1,0 +1,46 @@
+﻿@model VeterinariaElAngel.EN.Cita
+
+@{
+    ViewData["Title"] = "Editar Cita";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0"><i class="fas fa-edit"></i> Modificar Cita #@Model.IdCita</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        
+                        <input type="hidden" asp-for="IdCita" />
+
+                        <div class="mb-3">
+                            <label asp-for="FechaCita" class="form-label">Fecha de la Cita</label>
+                            <input asp-for="FechaCita" class="form-control" type="date" />
+                            <span asp-validation-for="FechaCita" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="HoraCita" class="form-label">Hora de la Cita</label>
+                            <input asp-for="HoraCita" class="form-control" type="time" />
+                            <span asp-validation-for="HoraCita" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3 text-muted small">
+                            <label asp-for="FechaCreacion" class="form-label">Fecha de Registro (No editable)</label>
+                            <input asp-for="FechaCreacion" class="form-control" readonly />
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Actualizar Cita</button>
+                            <a asp-action="Index" class="btn btn-secondary">Volver al Listado</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

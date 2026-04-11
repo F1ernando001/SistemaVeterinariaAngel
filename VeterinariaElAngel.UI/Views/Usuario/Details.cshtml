@@ -1,0 +1,66 @@
+﻿@model VeterinariaElAngel.EN.Usuario
+
+@{
+    ViewData["Title"] = "Perfil del Usuario";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow border-0">
+                <div class="card-header bg-info text-white d-flex justify-content-between align-items-center py-3">
+                    <h4 class="mb-0"><i class="fas fa-user-circle"></i> Información del Personal</h4>
+                    <span class="badge @(Model.Estado ? "bg-success" : "bg-secondary")">
+                        @(Model.Estado ? "Cuenta Activa" : "Cuenta Inactiva")
+                    </span>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-sm-6">
+                            <h5 class="text-muted border-bottom pb-2">Datos Personales</h5>
+                            <dl class="row mt-3">
+                                <dt class="col-sm-4 text-primary">Nombre:</dt>
+                                <dd class="col-sm-8">@Model.Nombre @Model.Apellido</dd>
+
+                                <dt class="col-sm-4 text-primary">DUI:</dt>
+                                <dd class="col-sm-8">@Model.DUI</dd>
+
+                                <dt class="col-sm-4 text-primary">Teléfono:</dt>
+                                <dd class="col-sm-8">@Model.Telefono</dd>
+                            </dl>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="text-muted border-bottom pb-2">Acceso al Sistema</h5>
+                            <dl class="row mt-3">
+                                <dt class="col-sm-4 text-primary">Rol:</dt>
+                                <dd class="col-sm-8">
+                                    <span class="badge bg-primary">@Model.Rol?.TipoRol</span>
+                                </dd>
+
+                                <dt class="col-sm-4 text-primary">Correo:</dt>
+                                <dd class="col-sm-8 text-break">@Model.Correo</dd>
+
+                                <dt class="col-sm-4 text-primary">ID:</dt>
+                                <dd class="col-sm-8">#@Model.IdUsuario</dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-muted border-bottom pb-2">Ubicación</h5>
+                            <p class="mt-2 text-dark">
+                                @(string.IsNullOrEmpty(Model.Dirección) ? "No se ha registrado una dirección." : Model.Dirección)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-light text-end py-3">
+                    <a asp-action="Index" class="btn btn-secondary shadow-sm">
+                        <i class="fas fa-arrow-left"></i> Volver al Listado
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
