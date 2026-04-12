@@ -10,7 +10,7 @@ namespace VeterinariaElAngel.BL
     {
         public async Task<int> GuardarAsync(Especie pEspecie)
         {
-            return await EspecieDAL.GuardarAsync(pEspecie);
+            return await EspecieDAL.CrearAsync(pEspecie);
         }
 
         public async Task<int> ModificarAsync(Especie pEspecie)
@@ -18,9 +18,9 @@ namespace VeterinariaElAngel.BL
             return await EspecieDAL.ModificarAsync(pEspecie);
         }
 
-        public async Task<int> EliminarAsync(int idEspecie)
+        public async Task<int> EliminarAsync(Especie pEspecie)
         {
-            return await EspecieDAL.EliminarAsync(idEspecie);
+            return await EspecieDAL.EliminarAsync(pEspecie);
         }
 
         public async Task<Especie> ObtenerPorIdAsync(int idEspecie)

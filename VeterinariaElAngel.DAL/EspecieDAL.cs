@@ -24,6 +24,17 @@ namespace VeterinariaElAngel.DAL
                 return await db.SaveChangesAsync();
             }
         }
+        public static async Task<int> EliminarAsync(Especie pEspecie)
+        {
+            int resultado = 0;
+            using (var db = new DBContexto())
+            {
+                var especie = await db.Especie.FirstOrDefaultAsync(e => e.IdEspecie == pEspecie.IdEspecie);
+                db.Especie.Remove(especie);
+                resultado = await db.SaveChangesAsync();
+            }
+            return resultado;
+        }
 
         public static async Task<List<Especie>> ObtenerTodosAsync()
         {

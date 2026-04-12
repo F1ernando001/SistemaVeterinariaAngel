@@ -10,7 +10,7 @@ namespace VeterinariaElAngel.BL
     {
         public async Task<int> CrearAsync(Cita pCita)
         {
-            return await CitaDAL.GuardarAsync(pCita);
+            return await CitaDAL.CrearAsync(pCita);
         }
 
         public async Task<int> ModificarAsync(Cita pCita)
@@ -18,12 +18,12 @@ namespace VeterinariaElAngel.BL
             return await CitaDAL.ModificarAsync(pCita);
         }
 
-        public async Task<int> EliminarAsync(int idCita)
+        public async Task<int> EliminarAsync(Cita idCita)
         {
             return await CitaDAL.EliminarAsync(idCita);
         }
 
-        public async Task<Cita> ObtenerPorIdAsync(int idCita)
+        public async Task<Cita> ObtenerPorIdAsync(Cita idCita)
         {
             return await CitaDAL.ObtenerPorIdAsync(idCita);
         }

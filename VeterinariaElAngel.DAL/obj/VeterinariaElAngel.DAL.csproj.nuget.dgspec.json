@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj": {}
+    "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj": {
+    "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
         "projectName": "VeterinariaElAngel.DAL",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.DAL\\obj\\",
+        "projectPath": "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.DAL\\VeterinariaElAngel.DAL.csproj",
+        "packagesPath": "C:\\Users\\luef1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luef1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj": {
-                "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj"
+              "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj": {
+                "projectPath": "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj"
               }
             }
           }
@@ -357,20 +357,20 @@
         }
       }
     },
-    "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj": {
+    "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+        "projectUniqueName": "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
         "projectName": "VeterinariaElAngel.EN",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Documents\\COPIA2\\VeterinariaElAngel.EN\\obj\\",
+        "projectPath": "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.EN\\VeterinariaElAngel.EN.csproj",
+        "packagesPath": "C:\\Users\\luef1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luef1\\Desktop\\SysVeterinariaElAngel\\VeterinariaElAngel.EN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luef1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
