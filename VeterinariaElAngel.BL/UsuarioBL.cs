@@ -17,6 +17,10 @@ namespace VeterinariaElAngel.BL
         {
             return await UsuarioDAL.ModificarAsync(pUsuario);
         }
+        public async Task<int> EliminarAsync(Usuario pUsuario)
+        {
+            return await UsuarioDAL.EliminarAsync(pUsuario);
+        }
         public async Task<Usuario> ObtenerPorIdAsync(Usuario pUsuario)
         {
             return await UsuarioDAL.ObtenerPorIdAsync(pUsuario);
@@ -24,6 +28,14 @@ namespace VeterinariaElAngel.BL
         public async Task<List<Usuario>> ObtenerTodosAsync()
         {
             return await UsuarioDAL.ObtenerTodosAsync();
+        }
+        public async Task<List<Usuario>> BuscarAsync(Usuario pUsuario)
+        {
+            return await UsuarioDAL.BuscarAsync(pUsuario);
+        }
+        public async Task<Usuario> EmailAsync(Usuario pUsuario)
+        {
+            return await UsuarioDAL.EmailAsync(pUsuario);
         }
         public async Task<List<Usuario>> BuscarIncluirRolesAsync(Usuario pUsuario)
         {

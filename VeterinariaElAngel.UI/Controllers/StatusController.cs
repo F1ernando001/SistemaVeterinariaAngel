@@ -1,34 +1,83 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using VeterinariaElAngel.BL;
-using VeterinariaElAngel.EN;
-public class RolController : Controller
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace VeterinariaElAngel.UI.Controllers
 {
-    RolBL rolBL = new RolBL();
-    public async Task<IActionResult> Index() => View(await rolBL.ObtenerTodosAsync());
-    public IActionResult Create() => View();
-
-    [HttpPost]
-    public async Task<IActionResult> Create(Rol pRol)
+    public class StatusController : Controller
     {
-        await rolBL.CrearAsync(pRol);
-        return RedirectToAction(nameof(Index));
-    }
+        // GET: StatusController
+        public ActionResult Index()
+        {
+            return View();
+        }
 
-    public async Task<IActionResult> Edit(int id) => View(await rolBL.ObtenerPorIdAsync(new Rol { IdRol = id }));
+        // GET: StatusController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> Edit(Rol pRol)
-    {
-        await rolBL.ModificarAsync(pRol);
-        return RedirectToAction(nameof(Index));
-    }
+        // GET: StatusController/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
 
-    public async Task<IActionResult> Delete(int id) => View(await rolBL.ObtenerPorIdAsync(new Rol { IdRol = id }));
+        // POST: StatusController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> Delete(int id, Rol pRol)
-    {
-        await rolBL.EliminarAsync(new Rol { IdRol = id });
-        return RedirectToAction(nameof(Index));
+        // GET: StatusController/Edit/5
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
+
+        // POST: StatusController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: StatusController/Delete/5
+        public ActionResult Delete(int id)
+        {
+            return View();
+        }
+
+        // POST: StatusController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
     }
 }

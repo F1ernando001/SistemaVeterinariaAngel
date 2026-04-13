@@ -91,54 +91,35 @@ namespace VeterinariaElAngel.DAL
             }
             return result;
         }
-        public static async Task<int> EliminarAsync(int pId)
+        public static async Task<int> EliminarAsync(Usuario pUsuario)
         {
             int result = 0;
-            try
-            {
+            
                 using (var dbContexto = new DBContexto())
                 {
-                    var usuario = await dbContexto.Usuario.FirstOrDefaultAsync(s => s.IdUsuario == pId);
+                    var usuario = await dbContexto.Usuario.FirstOrDefaultAsync(s => s.IdUsuario == pUsuario.IdRol);
                     dbContexto.Usuario.Remove(usuario);
                     result = await dbContexto.SaveChangesAsync();
                 }
-            }
-            catch (Exception ex)
-            {
-                result = 0;
-                throw new Exception("Ocurrió un error interno");
-            }
             return result;
         }
         public static async Task<Usuario> ObtenerPorIdAsync(Usuario pUsuario)
         {
             var usuario = new Usuario();
-            try
-            {
+            
                 using (var dbContexto = new DBContexto())
                 {
                     usuario = await dbContexto.Usuario.FirstOrDefaultAsync(s => s.IdUsuario == pUsuario.IdUsuario);
                 }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Ocurrio un error interno");
-            }
+            
             return usuario;
         }
         public static async Task<List<Usuario>> ObtenerTodosAsync()
         {
-            List<Usuario> usuario = new List<Usuario>();
-            try
+            var usuario = new List<Usuario>();
+            using (var dbContexto = new DBContexto())
             {
-                using (var dbContexto = new DBContexto())
-                {
-                    usuario = await dbContexto.Usuario.ToListAsync();
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
+                usuario = await dbContexto.Usuario.ToListAsync();
             }
             return usuario;
         }
@@ -207,5 +188,6 @@ namespace VeterinariaElAngel.DAL
             }
             return usuario;
         }
+
     }
 }
