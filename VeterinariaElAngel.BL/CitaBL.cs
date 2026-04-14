@@ -18,19 +18,24 @@ namespace VeterinariaElAngel.BL
             return await CitaDAL.ModificarAsync(pCita);
         }
 
-        public async Task<int> EliminarAsync(Cita idCita)
+        public async Task<int> EliminarAsync(Cita pCita)
         {
-            return await CitaDAL.EliminarAsync(idCita);
+            return await CitaDAL.EliminarAsync(pCita);
         }
 
-        public async Task<Cita> ObtenerPorIdAsync(Cita idCita)
+        public async Task<Cita> ObtenerPorIdAsync(Cita pCita)
         {
-            return await CitaDAL.ObtenerPorIdAsync(idCita);
+            return await CitaDAL.ObtenerPorIdAsync(pCita);
         }
 
         public async Task<List<Cita>> ObtenerTodosAsync()
         {
             return await CitaDAL.ObtenerTodosAsync();
+        }
+
+        public async Task<List<Cita>> BuscarAsync(Cita pCita)
+        {
+            return await CitaDAL.BuscarAsync(pCita);
         }
     }
 }

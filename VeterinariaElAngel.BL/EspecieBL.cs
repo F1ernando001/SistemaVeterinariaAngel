@@ -8,7 +8,7 @@ namespace VeterinariaElAngel.BL
 {
     public class EspecieBL
     {
-        public async Task<int> GuardarAsync(Especie pEspecie)
+        public async Task<int> CrearAsync(Especie pEspecie)
         {
             return await EspecieDAL.CrearAsync(pEspecie);
         }
